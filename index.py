@@ -38,6 +38,7 @@ def create_turtles(colors):
     for i, color in enumerate(colors):
         racer = turtle.Turtle()
         racer.color(color)
+        racer.speed(2)
         racer.shape('turtle')
         racer.left(90)                  #By default, the objects the pointed right (this way the turtle will be pointing upwards.)
         racer.penup()
